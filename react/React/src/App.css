@@ -1,0 +1,85 @@
+.container{
+  margin-left: 30px;
+  display: inline;
+  justify-content: space-evenly;
+}
+.headerStyle, .footerStyle{
+  width: 100%;
+  position: fixed;        
+  background:rgb(214,32,32);
+  padding:5px 0;
+  color:white;
+}
+.headerStyle{
+  top:0;
+}
+.footerStyle{
+  bottom:0;
+  text-align: center;
+}
+body{
+  background-color:white;
+}
+.headerButton{
+color:white;
+background-color:rgb(214,32,32) ;
+font-size: medium;
+margin-left:30px;
+margin-right: 70px;
+border:none;
+}
+.headerButton:hover{
+  color:black;
+}
+.ch{
+  margin-top: 50px;
+  font-size: xx-large;
+}
+#root{
+  margin-top: 50px;
+}
+.placeCenter{
+  margin-top: 370px;
+  text-align: center;
+}
+.displaylist{
+  margin-top:50px;
+}
+#deptTable {
+  width: 50%;
+}
+#deptTable td, #deptTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#deptTable tr:nth-child(even){
+  background-color:white;
+}
+#deptTable tr:hover {
+  background-color:whitesmoke;
+}
+#deptTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:rgb(214,32,32);
+  color: white;
+}
+.order_form{
+  margin-top: 50px;
+  margin-left: 200px;
+  justify-content: center;
+}
+.heading{
+  color:rgb(214,32,32);
+}
+.widthDropdown{
+  width:20%;
+}
+.addNewLine{
+  white-space: pre-wrap;
+}
+img{
+  width:auto;
+  height:18px;
+}
