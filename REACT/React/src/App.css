@@ -1,0 +1,74 @@
+.container{
+  margin-left: 30px;
+  display: inline;
+  justify-content: space-evenly;
+}
+.header, .footer{
+  width: 100%;
+  position: fixed;        
+  background:rgb(214,32,32);
+  padding:5px 0;
+  color:white;
+}
+.header{
+  top:0;
+}
+.footer{
+  bottom:0;
+  text-align: center;
+}
+body{
+  background-color:white;
+}
+.headerButton{
+color:white;
+background-color:rgb(214,32,32) ;
+font-size: medium;
+margin-left:30px;
+margin-right: 70px;
+border:none;
+}
+.headerButton:hover{
+  color:black;
+}
+#root{
+  margin-top: 50px;
+}
+.displaylist{
+  margin-top:50px;
+}
+#deptTable {
+  width: 50%;
+}
+#deptTable td, #deptTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#deptTable tr:nth-child(even){
+  background-color:white;
+}
+#deptTable tr:hover {
+  background-color:whitesmoke;
+}
+#deptTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:rgb(214,32,32);
+  color: white;
+}
+.orderform{
+  margin-top: 50px;
+  margin-left: 200px;
+  justify-content: center;
+}
+.heading{
+  color:rgb(214,32,32);
+}
+.addLine{
+  white-space: pre-wrap;
+}
+img{
+  width:auto;
+  height:18px;
+}

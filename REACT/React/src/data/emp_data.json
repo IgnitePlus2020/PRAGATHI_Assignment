@@ -1,0 +1,74 @@
+[
+    {
+      "empid" : 1,
+      "name" : "Amit",
+      "phone" : 4567897890,
+      "dept" : "ECE",
+      "sal":60000
+    },
+    {
+      "empid" : 2,
+      "name" : "Naveen",
+      "phone":1234567890,
+      "dept" : "CSE",
+      "sal" :75000
+    },
+    {
+      "empid" : 3,
+      "name" : "Divya",
+      "phone":1239457456,
+      "dept" : "ISE",
+      "sal":55000
+
+    },
+    {
+      "empid" : 4,
+      "name" : "Jaya",
+      "phone": 9087561234,
+      "dept" : "CSE",
+      "sal":60000
+    },
+    {
+      "empid" : 5,
+      "name" : "Majo",
+      "phone": 9080061234,
+      "dept" : "TCE",
+      "sal":50000
+    },
+    {
+      "empid" : 6,
+      "name" : "Ajay",
+      "phone" : 4567997890,
+      "dept" : "ECE",
+      "sal":60500
+    },
+    {
+      "empid" : 7,
+      "name" : "Joy",
+      "phone":1234667890,
+      "dept" : "ISE",
+      "sal" :45000
+    },
+    {
+      "empid" : 8,
+      "name" : "Deeksha",
+      "phone":1239467456,
+      "dept" : "TCE",
+      "sal":55500
+
+    },
+    {
+      "empid" : 9,
+      "name" : "Anitha",
+      "phone": 9087061234,
+      "dept" : "CSE",
+      "sal":62000
+    },
+    {
+      "empid" : 10,
+      "name" : "Arun",
+      "phone": 9080561234,
+      "dept" : "ECE",
+      "sal":59500
+    }
+  ]
