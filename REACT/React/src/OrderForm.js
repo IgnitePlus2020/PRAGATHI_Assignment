@@ -51,6 +51,17 @@ class OrderForm extends Component {
         this.setState({msg:orderText});
         this.setState({total:totalcost});
       }
+    /*
+    handleAdd=(e)=>{
+        alert('Removed!');
+        var order=this.state.order;
+        var qty=this.state.qty;
+        var pos=order.search("Rs.");
+        var cost=Number(order.slice(pos+3));
+        var totalcost=this.state.total-(cost*qty);
+        this.setState({total:totalcost});
+      }
+      */
     EmptyRootBelow=()=>{
         ReactDOM.render(<div></div>, document.getElementById('rootbelow'));
     }
@@ -80,6 +91,7 @@ class OrderForm extends Component {
                        <label>Quantity: </label>
                        <input type="text" name="qty" required onChange={this.handleChangeQty}></input>
                        <button type="button"  onClick={() => this.handleAdd()}>Add</button><br/>
+                       //<button type="button"  onClick={() => this.handleRemove()}>Remove</button>
                        <input type="submit" value="Submit"></input> 
                  </form>
                </div>
